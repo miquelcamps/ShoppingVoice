@@ -18,7 +18,7 @@ if (annyang) {
 	var commands = {
 		'buscar *query':	showResults,
 		'comprar *id':		buyItem,
-		'terminar':			finish
+		'terminar':		finish
 	};
 	
 	annyang.debug(); // OPTIONAL: activate debug mode for detailed logging in the console
