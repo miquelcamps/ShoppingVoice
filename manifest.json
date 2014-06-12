@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1",
+  "name": "Shopping Voice",
+  "icons": { "48": "icon.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.ulabox.com/*"],
+      //"css": ["mystyles.css"],
+      "js": ["jquery.js", "annyang.js", "app.js"]
+    }
+  ]
+}
